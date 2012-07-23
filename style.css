@@ -1,0 +1,84 @@
+.link {
+  stroke-width: 3px;
+}
+
+.link.selection {
+  stroke: orange;
+  stroke-opacity: 0;
+  stroke-width: 15px;
+}
+
+.link.selection.hover {
+  stroke-opacity: 0.8;
+}
+
+.link.resource {
+  stroke: blue;
+}
+
+.link.blank {
+  stroke: #000030;
+}
+
+.link.literal {
+  stroke: grey;
+}
+
+.node {	
+  fill: #000;
+  stroke: grey;
+}
+
+.node.resource { 
+  fill: #000;
+  stroke-width: 1.5px;
+}
+
+.node.blank { 
+  fill: white;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.node.literal {	
+  fill: grey;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.hover {
+	stroke: red;
+	stroke-width: 2px;
+}
+
+#viz {
+	text-align: center;
+}
+
+#viz svg.screen {
+	border: solid;
+	border-width: 1px;
+}
+
+text.shadow {
+	
+	stroke: white;
+	stroke-width: 5px;
+	stroke-opacity: 1;
+}
+
+marker#resourceArrow {
+	fill: blue;
+	stroke: blue;
+}
+
+marker#literalArrow {
+    fill: grey;
+    stroke: grey;
+}
+
+marker#blankArrow {
+    fill: #000030;
+    stroke: #000030;
+}
+

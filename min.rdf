@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:example="http://example.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/Japan">
+  	<example:peace-agreement rdf:resource="http://example.org/Canada"/>
+    <example:contraceptive-prevalence-percentMarriedWomen-15-to-49-year2005-2009 xml:lang="http://www.w3.org/2001/XMLSchema#double">54</example:contraceptive-prevalence-percentMarriedWomen-15-to-49-year2005-2009>
+    <example:population-growth-percentAnnual-year2010-2015 xml:lang="http://www.w3.org/2001/XMLSchema#double">-0.073</example:population-growth-percentAnnual-year2010-2015>
+    <example:adolescent-fertility-per1kWomen-15-to-19-year2000-2008 xml:lang="http://www.w3.org/2001/XMLSchema#double">5</example:adolescent-fertility-per1kWomen-15-to-19-year2000-2008>
+    <example:adolescent-fertility-percentWomen-15-to-19-year2010 xml:lang="http://www.w3.org/2001/XMLSchema#double">5.024</example:adolescent-fertility-percentWomen-15-to-19-year2010>
+    <example:contraceptive-prevalence-percent-year2010 xml:lang="http://www.w3.org/2001/XMLSchema#double">54.3</example:contraceptive-prevalence-percent-year2010>
+    <example:population-growth-percentAnnual-year1999-2009 xml:lang="http://www.w3.org/2001/XMLSchema#double">0.1</example:population-growth-percentAnnual-year1999-2009>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Canada">
+    <example:contraceptive-prevalence-percentMarriedWomen-15-to-49-year2005-2009 xml:lang="http://www.w3.org/2001/XMLSchema#double">74</example:contraceptive-prevalence-percentMarriedWomen-15-to-49-year2005-2009>
+    <example:population-growth-percentAnnual-year2010-2015 xml:lang="http://www.w3.org/2001/XMLSchema#double">0.924</example:population-growth-percentAnnual-year2010-2015>
+    <example:adolescent-fertility-per1kWomen-15-to-19-year2000-2008 xml:lang="http://www.w3.org/2001/XMLSchema#double">14</example:adolescent-fertility-per1kWomen-15-to-19-year2000-2008>
+    <example:adolescent-fertility-percentWomen-15-to-19-year2010 xml:lang="http://www.w3.org/2001/XMLSchema#double">13.952</example:adolescent-fertility-percentWomen-15-to-19-year2010>
+    <example:contraceptive-prevalence-percent-year2010 xml:lang="http://www.w3.org/2001/XMLSchema#double">74</example:contraceptive-prevalence-percent-year2010>
+    <example:population-growth-percentAnnual-year1999-2009 xml:lang="http://www.w3.org/2001/XMLSchema#double">1</example:population-growth-percentAnnual-year1999-2009>
+  </rdf:Description>
+</rdf:RDF>

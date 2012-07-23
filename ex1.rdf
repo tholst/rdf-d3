@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<!-- RDF Schema Candidate Recommendation (27 March, 2000)
+     Section 2.3.3.1
+  -->
+
+<rdf:RDF xml:lang="en"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description ID="biologicalParent">
+  <rdf:type resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description ID="biologicalFather">
+  <rdf:type resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  <rdfs:subPropertyOf rdf:resource="#biologicalParent"/>
+</rdf:Description>
+
+</rdf:RDF>
+
