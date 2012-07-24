@@ -1,4 +1,5 @@
 // initializations
+// test comment
 
 "use strict;"
 jQuery.noConflict();
